@@ -10,7 +10,7 @@ function buildCharts(id) {
             fill: false
         },
         {
-            label: `f(x) = ${a_2.toFixed(2)}y + ${b_2.toFixed(2)}`,
+            label: `f(у) = ${a_2.toFixed(2)}y + ${b_2.toFixed(2)}`,
             function: (x) => a_2 * x + b_2,
             borderColor: "rgba(153, 102, 255, 1)",
             data: [],
